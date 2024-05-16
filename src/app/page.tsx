@@ -98,7 +98,7 @@ export default function Home() {
         type: switchValue,
         value: sliderValue,
       },
-      isCorrectAnswer,
+      isCorrectAnswer: isCorrectAnswer!,
     };
 
     const prevTableItems = [...tableItems];
